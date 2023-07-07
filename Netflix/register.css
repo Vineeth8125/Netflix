@@ -1,0 +1,56 @@
+.img-logo{
+	margin-left: 30px;
+	width: 13%;
+	height: 50px;
+	margin-top: 20px;
+}
+nav a{
+	float: right;
+	font-size: 20px;
+	font-weight: 10px;
+	top: 35px;
+	right: 5%;
+	position: absolute;
+}
+hr{
+	opacity: 0.2
+}
+.wel{
+	font-size: 35px;
+	margin-top: 50px;
+}
+.wel p{
+	font-size: 19px;
+}
+form{
+	position: absolute;
+	left: 34%;
+}
+.input{
+	height: 50px;
+	width: 100%;
+	border:1px solid;
+	margin-bottom: 20px;
+}
+.sub{
+	background-color: #e50914;
+	height: 60px;
+	width:100%;
+	color: white;
+	font-size: 25px;
+	margin-top: 20px
+}
+@media(max-width: 767.98px){
+	form{
+		left: 10%;
+	}
+	.img-logo{
+		margin-left: 10px;
+		margin-top: 20px;
+		height: 20px;
+		width: 20%
+	}
+	nav a{
+		top: 20px
+	}
+}
